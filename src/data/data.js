@@ -4,7 +4,7 @@ import twitter from "../assets/twitter.svg";
 import youtube from "../assets/youtube.svg";
 import messenger from "../assets/messenger.svg";
 
-
+import logo from '../assets/logo.jpg'
 
 import p1 from '../assets/my_project_1.png'
 import p2 from '../assets/my_project_2.png'
@@ -58,4 +58,6 @@ const projectslist = [
   },
 ] 
 
-  export {homeapi, skills, projectslist}
+const Logo = {img: logo}
+
+  export {homeapi, skills, projectslist,Logo}
