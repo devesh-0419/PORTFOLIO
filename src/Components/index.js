@@ -1,0 +1,6 @@
+export {default as Home} from './Home.jsx'
+export {default as NavBar} from './NavBar.jsx'
+export {default as AboutMe} from './AboutMe.jsx'
+export {default as Projects} from './Projects.jsx'
+export {default as Contact} from './Contact.jsx'
+export {default as Footer} from './Footer.jsx'
