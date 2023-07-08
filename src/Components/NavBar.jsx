@@ -1,5 +1,5 @@
 import React from 'react'
-import logoImg from '../assets/Dev03544.jpg'
+import logoImg from '../assets/DEV03544.jpg'
 import {Bars3Icon} from '@heroicons/react/24/solid'
 const NavBar = () => {
   return (
