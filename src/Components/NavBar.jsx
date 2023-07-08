@@ -1,6 +1,7 @@
 import React from 'react'
 import {Logo} from '../data/data'
 import {Bars3Icon} from '@heroicons/react/24/solid'
+import {Link} from 'react-scroll'
 const NavBar = () => {
   return (
     <>
@@ -15,14 +16,27 @@ const NavBar = () => {
 
           
             <ul className={`md:hidden flex items-center justify-center gap-2 mr-40`}>
-                <li className='flex justify-center items-center cursor-pointer  p-4  rounded-sm text-xl font-bold hover:text-slate-50'>
-                Home</li>
-                <li className=''><button className=' flex justify-center items-center cursor-pointer  p-4  rounded-sm text-xl font-bold hover:text-slate-50'>
-                About</button></li>
-                <li className=''><button className=' flex justify-center items-center cursor-pointer  p-4  rounded-sm text-xl font-bold hover:text-slate-50'>
-                Project</button></li>
-                <li className=''><button className=' flex justify-center items-center cursor-pointer  p-4  rounded-sm text-xl font-bold hover:text-slate-50'>
-                Contact</button></li>
+                <li className=''>
+                  <Link className='flex justify-center items-center cursor-pointer  p-4  rounded-sm text-xl font-bold hover:text-slate-50' to='home' spy={true} smooth={true} offset={-80} duration={1000}>
+                  Home
+                  </Link>
+                  </li>
+                <li className=''>
+                  <Link className='flex justify-center items-center cursor-pointer  p-4  rounded-sm text-xl font-bold hover:text-slate-50' to='about' spy={true} smooth={true} offset={-80} duration={1000}>
+                  About
+                  </Link>
+                  </li>
+                <li className=''>
+                  <Link className='flex justify-center items-center cursor-pointer  p-4  rounded-sm text-xl font-bold hover:text-slate-50' to='projects' spy={true} smooth={true} offset={-80} duration={1000}>
+                  Projects
+                  </Link>
+                  </li>
+                <li className=''>
+                  <Link className='flex justify-center items-center cursor-pointer  p-4  rounded-sm text-xl font-bold hover:text-slate-50' to='contact' spy={true} smooth={true} offset={-80} duration={1000}>
+                  Contact
+                  </Link>
+                  </li>
+               
                
             </ul>
 
@@ -35,14 +49,23 @@ const NavBar = () => {
 <div className='absolute right-0 z-20 bg-purple-500 w-full opacity-0 group-focus:opacity-100 group-focus:right-0 group-focus:top-0 transition-all duration-100 '>
 
 <ul className={`hidden md:flex items-center justify-center gap-2 md:flex-col w-full font-bold mt-10`}>
-                <li className=' flex justify-center items-center w-full  cursor-pointer hover:text-slate-50'>
-                Home</li>
-                <li className=' flex justify-center items-center w-full  cursor-pointer hover:text-slate-50'>
-                About</li>
-                <li className=' flex justify-center items-center w-full  cursor-pointer hover:text-slate-50'>
-                Project</li>
-                <li className=' flex justify-center items-center w-full  cursor-pointer hover:text-slate-50'>
-                Contact</li>
+               <li className='w-full'> <Link className=' flex justify-center items-center w-full  cursor-pointer hover:text-slate-50' to='home' spy={true} smooth={true} offset={-80} duration={1000}>
+               Home
+               </Link>
+                </li>
+               <li className='w-full'> <Link className=' flex justify-center items-center w-full  cursor-pointer hover:text-slate-50' to='about' spy={true} smooth={true} offset={-80} duration={1000}>
+               About
+               </Link>
+                </li>
+               <li className='w-full'> <Link className=' flex justify-center items-center w-full  cursor-pointer hover:text-slate-50' to='projects' spy={true} smooth={true} offset={-80} duration={1000}>
+               Projects
+               </Link>
+                </li>
+               <li className='w-full'> <Link className=' flex justify-center items-center w-full  cursor-pointer hover:text-slate-50' to='contact' spy={true} smooth={true} offset={-80} duration={1000}>
+               Contact
+               </Link>
+                </li>
+                
                 
                 {/* <li className=''>About</li>
                 <li className=''>Project</li>
