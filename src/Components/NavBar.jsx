@@ -8,8 +8,8 @@ const NavBar = () => {
 
     <nav className='flex items-center justify-between '>
    
-        <div className='2xl:ml-10 md:ml-5 w-14 h-14 rounded-full overflow-hidden m-2  border border-black' >
-        <img src={Logo.img} alt="logo/img"  className=' w-auto -mt-4 h-28 rounded-full'/>
+        <div className='h-20 p-2' >
+        <img src={Logo.img} alt="logo/img"  className=' w-auto -mt-4 h-24 rounded-full'/>
 
         </div>
 
