@@ -5,7 +5,7 @@ import {projectslist} from '../data/data'
 const Projects = () => {
   return (
     <>
-     <div className=' w-full h-[90%] bg-gradient-to-br from-purple-600 to-purple-100'>
+     <div className=' w-full h-[90%] bg-gradient-to-br from-purple-400 to-purple-100'>
     <div className='flex items-center justify-center  flex-col'>
         <Title title={'Project'} text={'Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology'}/>
        

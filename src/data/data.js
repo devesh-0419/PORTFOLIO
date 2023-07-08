@@ -29,6 +29,9 @@ const skills = [
     {skill:'EXPRESS.JS'},
     {skill:'TAILWIND CSS'},
     {skill:'MONGODB'},
+    {skill:'C'},
+    {skill:'C++'},
+    {skill:'UNITY3D'},
 ];
 
 const projectslist = [

@@ -3,7 +3,7 @@ import Title from './utils/Title.jsx'
 const Contact = () => {
   return (
     <>
-    <div className=' bg-gradient-to-bl from-purple-100 to-purple-600 -mt-7 w-full h-[90%]'>
+    <div className=' bg-gradient-to-bl from-purple-100 to-purple-400 -mt-7 w-full h-[90%]'>
         <div className='flex flex-col items-center justify-center'>
         <div className='flex flex-col items-center justify-center mt-9'>
     <Title title={'Contact'} text={'Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology'}/>
