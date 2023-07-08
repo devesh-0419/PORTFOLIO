@@ -6,7 +6,7 @@ const Home = () => {
   
   return (
     <>
-      <div className="relative w-auto h-[95vh] bg-gradient-to-br from-purple-600 to-purple-100">
+      <div className="relative w-auto h-[96vh] bg-gradient-to-br from-purple-600 to-purple-100 ">
         <div className=" grid items-center justify-items-center h-full w-full ">
           <div className="grid items-center justify-items-center mt-36 ">
             <h1 className="font-bold text-7xl lg:text-6xl md:text-5xl sm:text-4xl xsm:text-2xl">
@@ -22,9 +22,9 @@ const Home = () => {
 I can apply my knowledge and skills for continuous improvement.
             </p>
           </div>
-          <div className=" mb-7">
+          <div className=" mb-8">
             <button className="button-theme text-2xl font-semibold bg-purple-600 shadow shadow-slate-800 text-slate-100 active:scale-110">
-              <h1 className=" px-4 py-1">Projects</h1>
+              <h1 className=" px-4 py-1 ">Projects</h1>
             </button>
           </div>
           

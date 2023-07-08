@@ -5,7 +5,7 @@ import Title from './utils/Title.jsx'
 const AboutMe = () => {
   return (
    <>
-   <div className=' w-full h-[90%] bg-gradient-to-bl from-purple-100 to-purple-500'>
+   <div className=' w-full h-[90%] bg-gradient-to-bl from-purple-100 to-purple-600'>
     <div className='flex items-center justify-center  flex-col'>
     <Title title={'About Me'} text={'Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology'}/>
     </div>
