@@ -6,7 +6,7 @@ const GetToKnowMe = () => {
    <div className=' mt-5 grid items-center justify-start'>
     <h1 className=' ml-3 text-xl md:text-lg font-extrabold'>Get to Know me!</h1>
 
-    <div className=' ml-5 text-lg md:text-sm font-semibold mr-16 text-justify'>
+    <div className=' ml-5 text-lg md:text-sm font-semibold mr-10 text-justify'>
         <p className='mt-5'>I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.
 
 
