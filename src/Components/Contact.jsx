@@ -15,11 +15,11 @@ const Contact = () => {
     <div className='w-1/4 lg:w-3/4 md:w-[80%] m-10 bg-slate-50 rounded-lg'>
         <form action="" className='flex flex-col p-4'>
             <label htmlFor="name" className=' mx-4 my-2 text-sm font-semibold uppercase'>Name</label>
-            <input type="text" id='name' className='bg-purple-400 mx-4 rounded-md p-1 pl-3 placeholder:text-black/30 py-2 text-xs overflow-y-hidden break-words max-w-full' placeholder='Enter Your Name'/>
+            <input type="text" id='name' className='bg-purple-400 mx-4 rounded-md p-1 pl-3 placeholder:text-black/30 py-2 text-xs overflow-y-hidden break-words max-w-full' placeholder='Enter Your Name' autoComplete="off"/>
             <label htmlFor="email" className=' mx-4 my-2 text-sm font-semibold uppercase'>email</label>
-            <input type="text" id='email' className='bg-purple-400 mx-4 rounded-md p-1 pl-3 placeholder:text-black/30 py-2 text-xs overflow-y-hidden break-words max-w-full' placeholder='Enter Your Email'  />
+            <input type="text" id='email' className='bg-purple-400 mx-4 rounded-md p-1 pl-3 placeholder:text-black/30 py-2 text-xs overflow-y-hidden break-words max-w-full' placeholder='Enter Your Email' autoComplete="off" />
             <label htmlFor="message" className=' mx-4 my-2 text-sm font-semibold uppercase'>message</label>
-            <input type="text" id='message' className='bg-purple-400 mx-4 rounded-md p-1 pl-3 placeholder:text-black/30 py-2 text-xs overflow-y-hidden break-words max-w-full' placeholder='Enter Your Message' />
+            <input type="text" id='message' className='bg-purple-400 mx-4 rounded-md p-1 pl-3 placeholder:text-black/30 py-2 text-xs overflow-y-hidden break-words max-w-full' placeholder='Enter Your Message' autoComplete="off"/>
 
             <button className="rounded-md mx-4 my-6 p-2 text-sm font-semibold bg-purple-600 shadow shadow-slate-800 text-slate-100 active:scale-110 ">
               <h1 className="">Submit</h1>
