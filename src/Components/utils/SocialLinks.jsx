@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SocialLinks = ({icon}) => {
+const SocialLinks = ({icon,links}) => {
   return (
     <>
     <img

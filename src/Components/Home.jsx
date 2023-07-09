@@ -1,6 +1,7 @@
 import React from "react";
 import {homeapi} from '../data/data'
 import SocialLinks from './utils/SocialLinks'
+import {Link} from 'react-scroll'
 const Home = () => {
   const {sociallinks} = homeapi; 
   
@@ -23,14 +24,15 @@ I can apply my knowledge and skills for continuous improvement.
             </p>
           </div>
           <div className=" mb-8">
+            <Link to="projects" smooth={true} offset={-80} spy={true} duration={1000}>
             <button className="button-theme text-2xl font-semibold bg-purple-600 shadow shadow-slate-800 text-slate-100 active:scale-110">
               <h1 className=" px-4 py-1 ">Projects</h1>
-            </button>
+            </button></Link>
           </div>
           
         </div>
       
-        <div className="sm:hidden grid items-center absolute top-[44vh] lg:top-[37vh] left-0 gap-3 ml-1">
+        <div className="sm:hidden grid items-center absolute top-[44vh] lg:top-[37vh] left-0 gap-3 ml-1 bg-slate-50 p-1 rounded-sm shadow-md shadow-slate-500">
              {
 sociallinks.map((val, i)=>{
   return <SocialLinks icon={val.icon} key={i} />

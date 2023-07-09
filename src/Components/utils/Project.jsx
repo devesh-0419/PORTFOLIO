@@ -1,6 +1,5 @@
 import React from 'react'
-
-const Project = ({val:{img,title,btn,text}}) => {
+const Project = ({val:{img,title,btn,text,link}}) => {
   return (
     <>
     <div className='grid md:grid-cols-1 grid-cols-2 items-center  justify-items-center mt-40 md:m-5 md:mt-14'>
@@ -13,9 +12,10 @@ const Project = ({val:{img,title,btn,text}}) => {
                 <p className=' text-sm lg:text-xs font-base text-left md:text-center '>{text}</p>
             </div>
             <div className='my-5'>
+           <a href={link} target="_blank" > 
             <button className="button-theme text-sm font-semibold bg-purple-600 shadow shadow-slate-800 text-slate-100 active:scale-110">
               <h1 className=" px-1 py-2">{btn}</h1>
-            </button>
+            </button> </a>
             </div>
         </div>
 
