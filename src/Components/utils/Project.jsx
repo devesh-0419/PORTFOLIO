@@ -2,7 +2,7 @@ import React from 'react'
 const Project = ({val:{img,title,btn,text,link}}) => {
   return (
     <>
-    <div className='grid md:grid-cols-1 grid-cols-2 items-center  justify-items-center mt-40 md:m-5 md:mt-14'>
+    <div className='grid md:grid-cols-1 grid-cols-2 items-center  justify-items-center mt-16 md:m-5 md:mt-14'>
         <div className='md:w-2/3 w-[85%]'>
             <img src={img} alt="img"  className='m-10 md:m-0'/>
         </div>
