@@ -12,7 +12,7 @@ const Contact = () => {
         </div>
    <div className=' grid grid-cols-1 items-center justify-items-center'>
 
-    <div className='w-1/4 lg:w-3/4 md:w-[80%] m-10 bg-slate-50 rounded-lg'>
+    <div className='w-1/4 lg:w-1/3 md:w-1/2 sm:3/2 xsm:w-[80%] m-10 bg-slate-50 rounded-lg'>
         <form action="" className='flex flex-col p-4'>
             <label htmlFor="name" className=' mx-4 my-2 text-sm font-semibold uppercase'>Name</label>
             <textarea type="text" id='name' className='bg-purple-400 mx-4 rounded-md p-1 pl-3 placeholder:text-black/30 py-2 text-xs overflow-y-hidden break-words max-w-full' placeholder='Enter Your Name' autoComplete="off"/>
