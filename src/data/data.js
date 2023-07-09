@@ -6,17 +6,28 @@ import hackerrank from "../assets/hackerrank.png";
 
 import logo from '../assets/devesh.png'
 
+const github_id = 'https://github.com/devesh-0419/';
+const leetcode_id='https://leetcode.com/_devesh_s/'
+const instagram_id='https://instagram.com/_devesh_s/'
+const linkedin_id='www.linkedin.com/in/devesh-swarnkar-a069161b7';
+const hackerrank_id = 'https://www.hackerrank.com/deveshswarnkar01' 
+
 import p1 from '../assets/my_project_1.png'
 import p2 from '../assets/my_project_2.png'
 import p3 from '../assets/my_project_3.png'
 
 const homeapi = {
     sociallinks: [
-      { icon: github, },
-      { icon: leetcode },
-      { icon: instagram },
-      { icon: linkedin },
-      { icon: hackerrank },
+      { icon: github,
+      link:github_id },
+      { icon: leetcode,
+      link:leetcode_id },
+      { icon: instagram,
+      link:instagram_id },
+      { icon: linkedin,
+      link:linkedin_id },
+      { icon: hackerrank,
+      link:hackerrank_id },
     ],
   };
 

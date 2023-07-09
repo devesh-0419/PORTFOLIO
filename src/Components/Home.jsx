@@ -35,7 +35,7 @@ I can apply my knowledge and skills for continuous improvement.
         <div className="sm:hidden grid items-center absolute top-[44vh] lg:top-[37vh] left-0 gap-3 ml-1 bg-slate-50 p-1 rounded-sm shadow-md shadow-slate-500">
              {
 sociallinks.map((val, i)=>{
-  return <SocialLinks icon={val.icon} key={i} />
+  return <SocialLinks icon={val.icon} link={val.link} key={i} />
 })
              }
           
