@@ -6,7 +6,7 @@ const Home = () => {
   
   return (
     <>
-      <div id="home" className="relative w-auto h-[96vh] bg-gradient-to-br from-purple-400 to-purple-100 ">
+      <div id="home" className="relative w-auto h-[96vh] bg-gradient-to-br from-gray-200 to-gray-100 ">
         <div className=" grid items-center justify-items-center h-full w-full ">
           <div className="grid items-center justify-items-center mt-36 md:mt-24 ">
             <h1 className="font-bold text-7xl lg:text-6xl md:text-5xl sm:text-4xl xsm:text-2xl">
