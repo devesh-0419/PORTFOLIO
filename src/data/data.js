@@ -9,7 +9,7 @@ import logo from '../assets/devesh.png'
 const github_id = 'https://github.com/devesh-0419/';
 const leetcode_id='https://leetcode.com/_devesh_s/'
 const instagram_id='https://instagram.com/_devesh_s/'
-const linkedin_id='www.linkedin.com/in/devesh-swarnkar-a069161b7';
+const linkedin_id='https://www.linkedin.com/in/devesh-swarnkar-a069161b7/';
 const hackerrank_id = 'https://www.hackerrank.com/deveshswarnkar01' 
 
 import p1 from '../assets/my_project_1.png'
