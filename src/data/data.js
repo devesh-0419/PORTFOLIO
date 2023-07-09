@@ -1,4 +1,4 @@
-import github from "../assets/github.svg";
+import github from "../assets/github.png";
 import instagram from "../assets/instagram.svg";
 import leetcode from "../assets/leetcode.png";
 import linkedin from "../assets/linkedin.svg";

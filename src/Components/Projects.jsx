@@ -7,7 +7,7 @@ const Projects = () => {
     <>
      <div id='projects' className=' w-full h-[90%] bg-gradient-to-br from-gray-200 to-gray-100'>
     <div className='flex items-center justify-center  flex-col'>
-        <Title title={'Project'} text={'Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology'}/>
+        <Title title={'Project'} text={'Here, you will find some of the personal and group projects that I have created, with each project containing its own source code.'}/>
        
     </div>
    

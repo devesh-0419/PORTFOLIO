@@ -21,7 +21,8 @@ const Footer = () => {
         <div className='w-1/2 md:w-[80%] m-8'>
             <h1 className=' font-bold text-xl'>Devesh Swarnkar</h1>
             <div className='my-4'>
-                <p className=' text-xs font-medium text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum optio explicabo animi at perferendis fugit placeat cupiditate aspernatur omnis labore.
+                <p className=' text-xs font-medium text-left'>Extremely motivated to constantly develop my skills and grow professionally. I want to join an organization, where
+I can apply my knowledge and skills for continuous improvement.
                 </p>
             </div>
         </div>

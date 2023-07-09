@@ -8,7 +8,7 @@ const Title = ({title,text}) => {
 
         <div className='mx-5 text-center text-sm'>
 
-<p>{text}
+<p className='text-lg sm:text-lg px-40 sm:px-4'>{text}
 </p>
 </div>
     </>
