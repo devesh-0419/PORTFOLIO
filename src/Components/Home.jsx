@@ -9,6 +9,9 @@ const Home = () => {
     <>
       <div id="home" className="relative w-auto h-[96vh] bg-gradient-to-br from-gray-200 to-gray-100 ">
         <div className=" grid items-center justify-items-center h-full w-full ">
+          <div className="grid items-center justify-items-center gap-16 md:gap-10">
+
+         
           <div className="grid items-center justify-items-center mt-36 md:mt-24 ">
             <h1 className="font-bold text-7xl lg:text-6xl md:text-5xl sm:text-4xl xsm:text-2xl">
               Hey, I'm
@@ -31,7 +34,8 @@ I can apply my knowledge and skills for continuous improvement.
           </div>
           
         </div>
-      
+
+        </div>
         <div className="sm:hidden grid items-center absolute top-[44vh] lg:top-[37vh] left-0 gap-3 ml-1 bg-slate-50 p-1 rounded-sm shadow-md shadow-slate-500">
              {
 sociallinks.map((val, i)=>{
