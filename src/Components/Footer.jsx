@@ -36,7 +36,7 @@ I can apply my knowledge and skills for continuous improvement.
         <p className=' text-xs'> 
            CopyRight 
             <sup className=' font-bold text-xs'>&copy;</sup>
-            All Reserved Rights 2022 <span className=' font-bold'>Devesh Swarnkar</span>
+            All Reserved Rights 2023 <span className=' font-bold'>Devesh Swarnkar</span>
         </p>
       </div>
     </div>
