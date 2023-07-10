@@ -46,7 +46,7 @@ const NavBar = () => {
 
                
 
-<div className='absolute right-0 z-20 bg-purple-500 w-full opacity-0 group-focus:opacity-100 group-focus:right-0 group-focus:top-0 transition-all duration-100 '>
+<div className='absolute hidden right-0 z-20 bg-purple-500 w-full opacity-0 group-focus:block group-focus:opacity-100 group-focus:right-0 group-focus:top-0 transition-all duration-100 '>
 
 <ul className={`hidden md:flex items-center justify-center gap-2 md:flex-col w-full font-bold mt-10`}>
                <li className='w-full'> <Link className=' flex justify-center items-center w-full  cursor-pointer hover:text-slate-50' to='home' spy={true} smooth={true} offset={-80} duration={1000}>
