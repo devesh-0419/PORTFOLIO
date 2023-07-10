@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <div id="home" className="relative w-auto h-[96vh] bg-gradient-to-br from-gray-200 to-gray-100 ">
         <div className=" grid items-center justify-items-center h-full w-full ">
-          <div className="grid items-center justify-items-center gap-40 2xl:gap-16 md:gap-10">
+          <div className="grid items-center justify-items-center gap-16 md:gap-10">
 
          
           <div className="grid items-center justify-items-center mt-36 md:mt-24 ">
