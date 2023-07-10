@@ -56,10 +56,10 @@ const projectslist = [
   },
   {
     img:p2,
-    title:"Home-Alike",
-    text:"Home-Alike is a web application built with React for the frontend and Express.js for the backend, using MongoDB as the database. It allows users to search, book, and review home-stays at different tourist locations. The frontend offers an intuitive interface for browsing and selecting accommodations, while the backend manages data storage, authentication, and booking processes. Users can create profiles, filter search results, make secure bookings, and provide feedback through reviews. Home-Alike provides a seamless platform for travelers to find and book unique home-stays.",
+    title:"P2P Energy Trading",
+    text:`The project P2P energy trading website leverages React for the frontend development and Solidity for creating smart contracts. It establishes a decentralized platform where users can participate in the direct buying and selling of solar energy. Through the implementation of peer-to-peer transactions, the website enables secure and efficient trading of renewable energy resources.`,
     btn:"Source Code",
-    link:"https://github.com/devesh-0419/HomeAlike-Backend",
+    link:"https://github.com/devesh-0419/P2PEnergyTradingPlatform",
 
   },
   {
