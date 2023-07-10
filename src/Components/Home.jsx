@@ -29,7 +29,7 @@ I can apply my knowledge and skills for continuous improvement.
           <div className=" mb-8">
             <Link to="projects" smooth={true} offset={-80} spy={true} duration={1000}>
             <button className="button-theme text-2xl font-semibold bg-purple-600 shadow shadow-slate-800 text-slate-100 active:scale-110">
-              <h1 className=" px-4 py-1 ">Projects</h1>
+              <h1 className=" px-4 py-1 ">My Projects</h1>
             </button></Link>
           </div>
           
