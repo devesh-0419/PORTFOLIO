@@ -3,8 +3,12 @@ import instagram from "../assets/instagram.svg";
 import leetcode from "../assets/leetcode.png";
 import linkedin from "../assets/linkedin.svg";
 import hackerrank from "../assets/hackerrank.png";
-
+import resume_logo from "../assets/resumelogo.png";
 import logo from '../assets/devesh.png'
+
+import resume from '../assets/Resume/DeveshSwarnkar-Btech.pdf';
+
+
 
 const github_id = 'https://github.com/devesh-0419/';
 const leetcode_id='https://leetcode.com/_devesh_s/'
@@ -18,6 +22,10 @@ import p3 from '../assets/my_project_3.png'
 
 const homeapi = {
     sociallinks: [
+      {
+        icon: resume_logo,
+        link: resume
+      },
       { icon: github,
       link:github_id },
       { icon: leetcode,

@@ -5,7 +5,7 @@ const SocialLinks = ({icon,link}) => {
   return (
     
     <>
-    <a href={link}  target='_blank'>
+    <a href={link} /*download="Devesh_Swarnkar_Btech_resume" */ target='_blank'>
     <img
     src={icon}
     alt='icon/socials'
